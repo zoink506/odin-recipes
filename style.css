@@ -73,6 +73,7 @@ body {
   background-color: var(--palette-blue1);
   width: 10%;
   height: 100%;
+  transition: 0.2s ease-in-out;
 }
 
 .arrow-div p {
@@ -81,7 +82,11 @@ body {
   color: var(--palette-lightgray);
 }
 
-.content-div a {
+.arrow-div:hover {
+  background-color: rgb(132, 157, 190);
+}
+
+.content-div h2 {
   text-decoration: none;
   color: var(--palette-blue2);
 }
