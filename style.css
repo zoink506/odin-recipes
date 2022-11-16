@@ -90,3 +90,72 @@ body {
   text-decoration: none;
   color: var(--palette-blue2);
 }
+
+/* <recipe>.html styles */
+
+.recipe-header {
+
+}
+
+#ingredients {
+  margin-bottom: 20px;
+  width: 100%;
+  list-style-position: inside;
+}
+
+#instructions {
+  width: 100%;
+  list-style-position: inside;
+  margin-bottom: 20px;
+}
+
+.homepage-link {
+  margin-left: 50px;
+}
+
+.recipepage-container {
+  margin-left: 50px;
+  padding: 20px 50px;
+  background-color: rgba(119, 141, 169, 0.150);
+  width: 960px;
+  color: var(--palette-blue3);
+}
+
+.header img {
+  float: right;
+  border: 5px solid var(--palette-blue2);
+  border-radius: 5px;
+}
+
+.back-button {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.back-button div {
+  color: var(--palette-lightgray);
+  background-color: var(--palette-blue1);
+  width: 200px;
+  height: 50px;
+
+  transition: 0.2s ease-in-out;
+}
+
+.back-button div:hover {
+  background-color: rgb(132, 157, 190);;
+}
+
+.first {
+  float: left;
+  margin-left: 20px;
+  margin-top: 3px;
+  font-size: 30px;
+}
+
+.second {
+  float: right;
+  margin-right: 122px;
+  margin-top: 17px;
+  font-size: 14px;
+  font-weight: bold;
+}
